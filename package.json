@@ -1,0 +1,27 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "this is translate app",
+  "main": "index.js",
+  "author": "bryanhu",
+  "license": "MIT",
+  "scripts": {
+    "build:lang": "ts-node main.ts"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/lodash": "^4.14.136",
+    "@types/node": "^12.6.8",
+    "@types/prettier": "^1.18.0",
+    "dayjs": "^1.8.15",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3",
+    "xlsx": "^0.14.4"
+  }
+}
